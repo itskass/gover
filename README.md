@@ -3,7 +3,7 @@
 Gover is a command line tool for installing and managing multiple versions of Golang. Gover allows installation and
 usage of Go1-Go13+ using the github tags; For supported* version see [Go Repo Tags](https://github.com/golang/go/tags).
 
-*\*You may have trouble building older version of go.*
+*\*You may have trouble building older versions of go.*
 
 ## Installation 
 1. Get and install gover:
@@ -13,7 +13,7 @@ $ go get github.com/itskass/gover
 
 2. Add gover to path:
 ```bash
-# Gover must be prepended to ensure make sure the bash command checks the gover for
+# Gover must be pre-pended to ensure make sure the bash command checks the gover for
 # golang first. If no version is set then it will fall back to your current version.
 export PATH=~/.gover/goroot:$PATH
 ```
@@ -41,5 +41,7 @@ To do this use the gover fetch command:
 ```bash
 $ gover fetch
 ```
+
+---
 
 Contributions welcomed <3
