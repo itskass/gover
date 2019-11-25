@@ -13,7 +13,7 @@ import (
 	"github.com/itskass/gover/conf"
 	"github.com/itskass/gover/repo"
 
-	"github.com/urfave/cli"
+	"gopkg.in/urfave/cli.v1"
 )
 
 // Install a version of golang

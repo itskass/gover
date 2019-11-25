@@ -7,7 +7,7 @@ import (
 
 	"github.com/itskass/gover/repo"
 
-	"github.com/urfave/cli"
+	"gopkg.in/urfave/cli.v1"
 )
 
 // Fetch command pulls from the current Golang source repo

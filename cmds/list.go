@@ -9,7 +9,7 @@ import (
 	"gopkg.in/src-d/go-git.v4"
 
 	"github.com/itskass/gover/conf"
-	"github.com/urfave/cli"
+	"gopkg.in/urfave/cli.v1"
 )
 
 // List will assign a current version of Golang to use

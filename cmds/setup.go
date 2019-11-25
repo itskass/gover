@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/itskass/gover/conf"
-	"github.com/urfave/cli"
+	"gopkg.in/urfave/cli.v1"
 )
 
 // Setup sets up up gover and installs Golang version 1.13 as the base base

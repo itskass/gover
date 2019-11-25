@@ -9,7 +9,7 @@ import (
 	"github.com/itskass/gover/conf"
 
 	"github.com/itskass/gover/cmds"
-	"github.com/urfave/cli"
+	"gopkg.in/urfave/cli.v1"
 )
 
 func main() {

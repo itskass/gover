@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/itskass/gover/conf"
-	"github.com/urfave/cli"
+	"gopkg.in/urfave/cli.v1"
 )
 
 // Use will assign a current version of Golang to use
